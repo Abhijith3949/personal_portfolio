@@ -1,4 +1,5 @@
-  /* GENERAL */
+
+/* GENERAL */
 
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,500&display=swap');
 
@@ -169,6 +170,17 @@ section {
     height: 80vh;
 }
 
+.profile-pic {
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); /* Adjust color and intensity as needed */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+}
+
+.profile-pic:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 255, 0.7); /* Glow effect on hover */
+}
+
+
 .section_pic-container {
     display: flex;
     height: 400px;
@@ -314,6 +326,16 @@ section {
     margin: auto 0;
 }
 
+section {
+    /* Existing styles */
+    transition: opacity 0.5s ease;
+}
+
+section.fade-in {
+    opacity: 1;
+}
+
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -352,6 +374,16 @@ article {
 article .icon {
     cursor: default;
 } 
+
+section {
+    /* Existing styles */
+    transition: opacity 0.5s ease;
+}
+
+section.fade-in {
+    opacity: 1;
+}
+
 
 /* PROJECTS SECTION */
 
@@ -394,6 +426,13 @@ article .icon {
     height: 85%;
 }
 
+.project-video {
+    border-radius: 2rem; /* Rounded corners */
+    width: 85%; /* 85% width of its container */
+    height: 85%; /* 85% height of its container */
+    /* Additional styles if needed */
+  }
+
 .project-title {
     margin: 1rem;
     color: black;
@@ -403,6 +442,16 @@ article .icon {
     color: black;
     border-color: rgb(163, 163, 163);
 }
+
+section {
+    /* Existing styles */
+    transition: opacity 0.5s ease;
+}
+
+section.fade-in {
+    opacity: 1;
+}
+
 
 /* CONTACT */
 
@@ -445,6 +494,16 @@ article .icon {
     height: 2.5rem;
 }
 
+section {
+    /* Existing styles */
+    transition: opacity 0.5s ease;
+}
+
+section.fade-in {
+    opacity: 1;
+}
+
+
 /* FOOTER SECTION */
 
 footer {
@@ -455,3 +514,4 @@ footer {
 footer p {
     text-align: center;
 }
+
